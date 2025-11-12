@@ -1,16 +1,76 @@
-# React + Vite
+# 🎙️ VoiceFlowAI — Smart AI Dashboard (Full-Stack App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Live Frontend:** [https://voiceflowai-frontend-2025.onrender.com](https://voiceflowai-frontend-2025.onrender.com)  
+⚙️ **Backend API:** [[https://voiceflowai-backend.onrender.com](https://voiceflowai-backend.onrender.com)](https://voiceflowai-backend-ifzb.onrender.com)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💡 Overview
+VoiceFlowAI is a full-stack AI-powered productivity dashboard that integrates **Chat Commands**, **Reminders**, **Crypto Price Tracking**, and **Content Summarization** — all in one intuitive interface.
 
-## React Compiler
+Built to demonstrate modern web architecture using **React + Vite (frontend)** and **Node.js + Express + MongoDB (backend)**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Features
+✅ **AI Command Interface** – Type natural commands like “Remind me to call mom at 8pm”.  
+✅ **Reminders API** – Saves and retrieves scheduled tasks via MongoDB Atlas.  
+✅ **Crypto Tracker** – Fetches real-time cryptocurrency prices (Bitcoin, Ethereum, etc).  
+✅ **Summarizer Tool** – Summarizes articles via AI text summarization API.  
+✅ **Responsive UI** – Fully mobile-ready, built with React + TailwindCSS.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Tech Stack
+### 🖥️ Frontend
+- React 18 (Vite)
+- TailwindCSS
+- Axios for API calls
+- Render for hosting
+
+### ⚙️ Backend
+- Node.js + Express
+- MongoDB Atlas
+- dotenv + CORS + body-parser
+- Render backend deployment
+
+---
+
+## ⚡ Local Setup
+```bash
+# clone the repo
+git clone https://github.com/RajuNemalla/voiceflowai-frontend.git
+cd voiceflowai-frontend
+
+# install dependencies
+npm install
+
+# run locally
+npm run dev
+
+
+🌍 Deployment
+
+Frontend: Render Static Site (npm run build, publish dist/)
+
+Backend: Render Web Service
+
+Auto Deploy: Linked to GitHub main branch
+
+
+👨‍💻 Developer
+
+Raju Nemalla
+📧 nemallaraju2001@gmail.com
+
+🏁 Future Improvements
+
+Add voice-based AI assistant
+
+Authentication & user dashboard
+
+Advanced analytics panel
+
+Dark/Light theme toggle
+
+⭐ If you like this project, please give it a Star on GitHub!
